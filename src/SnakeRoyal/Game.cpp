@@ -213,12 +213,12 @@ void Game::drawInfo(Painter& painter)
     painter.text(roundInfo, TILE_MAP_MARGIN_LEFT, 10);
 }
 
-uint64_t Game::getRandState() const
+uint32_t Game::getRandState() const
 {
     return _randState;
 }
 
-void Game::setRandState(uint64_t state)
+void Game::setRandState(uint32_t state)
 {
     _randState = state;
 }
