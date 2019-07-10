@@ -111,7 +111,7 @@ struct MessageServerState
     : MessageBasePOD<MessageServerState, NetworkMessage::SERVER_STATE>
 {
     uint32_t tick;
-    uint64_t randState;
+    uint32_t randState;
     RoundData_t roundData;
     uint32_t timeout;
     std::array<TileData_t, TILE_MAP_SIZE> tiles;
