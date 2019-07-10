@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Painter.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Players.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Snakes.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Painter.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Snakes.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkMessage.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8c159749-4873-4fbe-a763-65ed7b2a2e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{b3332e8d-1a94-40ac-8fe8-97988b5cfa52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SnakeRoyal.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
