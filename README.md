@@ -6,7 +6,7 @@ So expect bugs...
 
 # Building
 ## Windows
-Just open it with Visual Studio 2017 Community Edition or higher and it should compile out of the box, it has no dependencies.
+Just open it with Visual Studio 2019 Community Edition or higher and it should compile out of the box, it has no dependencies.
 ## Linux
 Sorry but not at this time, PR's are welcome!
 
